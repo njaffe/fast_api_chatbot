@@ -24,45 +24,6 @@ This is a simple chatbot application built with FastAPI, integrated with OpenAI�
 
 2. Create a virtual environment
 
-You can use either conda or venv to create your environment. If you prefer conda:
-`conda create --name chatbot-env python=3.9`
-`conda activate chatbot-env`
-
-Alternatively, if you’re using venv:
-python -m venv chatbot-env
-source chatbot-env/bin/activate  # On Windows: chatbot-env\Scripts\activate
-
-3. Install dependencies
-
-Install the required Python packages via pip:
-`pip install -r requirements.txt`
-
-LLM-Powered Chatbot with FastAPI
-
-This is a simple chatbot application built with FastAPI, integrated with OpenAI’s GPT-3.5 model for natural language processing. The chatbot responds to user messages using OpenAI’s API and is deployed as a REST API.
-
-## Features
-
-- FastAPI backend for handling API requests.
-- OpenAI GPT-3.5 model used for generating chatbot responses.
-- Supports async operations for scalable performance.
-- Built-in exception handling for error management.
-
-## Requirements
-
-- Python 3.9 or higher
-- OpenAI API key
-- FastAPI
-- Uvicorn (for running the server)
-
-## Setup Instructions
-
-1. Clone the repository
-`git clone https://github.com/yourusername/fast_api_chatbot.git`
-`cd fast_api_chatbot`
-
-2. Create a virtual environment
-
     You can use either conda or venv to create your environment. If you prefer conda:
 `conda create --name chatbot-env python=3.9`
 `conda activate chatbot-env`
